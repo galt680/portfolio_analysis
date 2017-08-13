@@ -1,0 +1,51 @@
+#Specific files to ignore
+########################
+/.cache
+/manage.py
+/settings.py
+/passwords.py
+/.ipynb_checkpoints
+# Compiled source #
+###################
+\venv*
+*.class
+*.com
+*.dll
+*.exe
+*.idea
+*.ipynb
+*.o
+*.pickle
+*.pyc
+*.so
+*.xml
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.db-journal
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+*.db
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
